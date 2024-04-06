@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo\style.css"><link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Perfil</title>
+    <style>
+        ::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;}
+        body,html{
+            background-color: black;
+        }
+        #top{
+            color: white;
+            border-bottom: 1px solid white;
+        }
+        #top>span{
+            padding: 10px;
+        }
+        #top>#person{
+            position: relative;
+            left: 56.9%;
+            top: 0.9px;
+            border-bottom: 1px solid white;
+        }
+        #inform{
+            border-top: 1px solid rgba(255, 255, 255, 0.316);
+            height: 200px;
+            
+        }
+        #conta{
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-image: linear-gradient(to top,orange, rgb(175, 24, 175) );
+            position: relative;
+            top: 10px;
+            left: 5px;
+        }
+        .inter{
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            background-color: rgba(157, 157, 157, 0.886);
+            position: relative;
+            top: 5px;
+            left: 5px;
+        }
+        #destaque{
+            display: flex;
+            position: absolute;
+            top: 50%; 
+            left: 6%;
+        }
+        .post{
+        display: flex;
+        position: relative;
+        top: -12px;
+        left: -13px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%; 
+        background-color: rgba(169, 169, 169, 0.236); 
+        border: 1px solid darkgrey;
+         
+    }  
+    .intpost{
+            display: flex;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background-color: rgba(178, 178, 178, 0.553);
+            position: relative;
+            left: 2px;
+            top: 2px;
+        }
+        #post2{
+            position: relative;
+            top: -12px; 
+            left: 4%;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%; 
+            background-color: rgba(169, 169, 169, 0.236); 
+            border: 1px solid darkgrey;
+            display: flex;
+          
+        }
+        #post3{
+            position: relative;
+            top: -12px; 
+            left: 3%;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%; 
+            background-color: rgba(169, 169, 169, 0.236); 
+            border: 1px solid darkgrey;
+            display: flex;
+
+        }
+        
+        #post4{
+            position: relative;
+            top: -12px; 
+            left: 2%;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%; 
+            background-color: rgba(169, 169, 169, 0.236); 
+            border: 1px solid darkgrey;
+            display: flex;
+
+        }
+        
+        #post5{
+            position: relative;
+            top: -12px; 
+            left: 1%;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%; 
+            background-color: rgba(169, 169, 169, 0.236); 
+            border: 1px solid darkgrey;
+            display: flex;
+
+        }
+        
+        #post6{
+            position: relative;
+            top: -12px; 
+            left: 0%;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%; 
+            background-color: rgba(169, 169, 169, 0.236); 
+            border: 1px solid darkgrey;
+            display: flex;
+
+        }
+        
+        #post7{
+            position: relative;
+            top: -12px; 
+            left: -1%;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%; 
+            background-color: rgba(169, 169, 169, 0.236); 
+            border: 1px solid darkgrey;
+            display: flex;
+
+        }
+        
+        #post8{
+            position: relative;
+            top: -12px; 
+            left: -2%;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%; 
+            background-color: rgba(169, 169, 169, 0.236); 
+            border: 1px solid darkgrey;
+            display: flex;
+
+        }
+        
+        #post9{
+            position: relative;
+            top: -12px; 
+            left: -1px;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%; 
+            background-color: rgba(169, 169, 169, 0.236); 
+            border: 1px solid darkgrey;
+            display: flex;
+
+        }
+        #simb{
+            position: absolute;
+            left: 17%;
+            top: 48%;
+            width: 32px;
+            height: 3px;
+            border-radius: 10%;
+            background-color: rgb(205, 205, 205);
+            
+        }
+        #simb2{
+            position: absolute;
+            left: 48%;
+            top: 16%;
+            width: 3px;
+            height: 32px;
+            width: 3px;
+            height: 32px;
+            border-radius: 10%;
+            background-color: rgb(205, 205, 205);
+            
+        }
+        main{
+            border-top: 1px solid rgba(255, 255, 255, 0.316);
+            height: 100vh;
+        }
+        #posters{
+            padding-top: 15px;
+            padding-bottom:0px ;
+            display: flex;
+            justify-content:space-evenly;
+        }
+        #posters>div{
+            display: flex;
+            width: 150px;
+            height: 150px;
+            background-color: rgba(169, 169, 169, 0.564);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="top">
+            <span class="material-icons"  >settings_alert</span>
+            <span id="person"class="material-icons">person_add</span>
+        </div> 
+        <div id="inform">
+            <div id="conta">
+                <div class="inter"></div>
+
+            </div>
+
+            <div id="destaque" >
+                <div id="9" class="post">
+                    <div class="intpost">
+        
+                    </div>
+        
+                </div>
+                <div id="post8" class="post">
+                     <div class="intpost">
+        
+                    </div>
+        
+        
+                </div>
+                <div id="post7" class="post">
+                <div class="intpost">
+        
+                    </div>
+        
+                </div>
+                <div id="post6" class="post">
+                <div class="intpost">
+        
+                    </div>
+        
+                </div>
+                <div id="post5" class="post">
+                <div class="intpost">
+        
+                    </div>
+        
+                </div>
+                <div id="post4" class="post">
+                <div class="intpost">
+        
+                    </div>
+        
+                </div>
+                <div id="post3" class="post">
+                <div class="intpost">
+        
+                    </div>
+        
+                </div>
+                <div id="post2">
+                <div class="intpost">
+                    <div id="simb">
+
+                    </div>
+                    <div id="simb2">
+
+                    </div>
+        
+                    </div>
+        
+                </div>
+
+            </div>
+
+        </div>    
+    </header>
+    <main>
+        <div id="posters">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <div id="posters">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <div id="posters">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+       
+        <div id="posters">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <br>
+        <br>
+
+
+
+    </main>
+
+</body>
+</html>
