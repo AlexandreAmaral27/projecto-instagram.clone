@@ -73,3 +73,7 @@ footer>h2{
    footer>h2>a{
     color: white;
    }
+
+   footer>h2>a:hover{
+    background-color: rgb(92, 99, 99);
+   }
