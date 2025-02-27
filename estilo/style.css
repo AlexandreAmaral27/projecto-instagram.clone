@@ -10,6 +10,7 @@
 }
 body,html{
     width: 79.9vh;
+    
 }
 ::-webkit-scrollbar{
     width: 0px;
@@ -55,7 +56,7 @@ main{
     top: 13%;
 }
 
-footer{
+footer>div{
   width: 100vw;
   display: flex;
   position: absolute;
@@ -63,17 +64,17 @@ footer{
   color: white;
     
 }
-footer>h2{
+footer>div>h2{
    font-size: 1em;
    padding: 19px;
    padding-left: 42px;
    position: relative;
    left: 3%;
    }
-   footer>h2>a{
+   footer>div>h2>a{
     color: white;
    }
 
-   footer>h2>a:hover{
+   footer>div>h2>a:hover{
     background-color: rgb(92, 99, 99);
    }
