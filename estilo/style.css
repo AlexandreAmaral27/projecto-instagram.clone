@@ -43,18 +43,41 @@ header>h1>a{
     color: white;
 }
 main{
+   
+    
     color: white;
     height: 400px;
     position: relative;
     top: 108px;
     left: 16px;
-
 }
+.menu{ 
+    position: absolute;
+    left: -17px;
+   
+    width: 65%;
+    height: 100%;
+}
+.menu h3{
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 0px  35px 0px ;
+}
+.menu h3:hover{
+    background-color: rgba(53, 52, 52, 0.234);
+    border-radius: 5%;
+}
+.iframe-video{
+    position: absolute;
+    left: 70%;
+}
+
 #story>iframe{
     width: 99.4vw;
     position: absolute;
     top: 13%;
 }
+
 
 footer>div{
   width: 100vw;
@@ -62,6 +85,7 @@ footer>div{
   position: absolute;
   top: 88%;
   color: white;
+  
     
 }
 footer>div>h2{
@@ -77,4 +101,7 @@ footer>div>h2{
 
    footer>div>h2>a:hover{
     background-color: rgb(92, 99, 99);
+   }
+   .icon{
+    padding-left: 13%;
    }
