@@ -9,5 +9,31 @@
        .menu{
         display: none;
        }
+       .direito{
+        display: none;
+       }
+       footer{
+        display: block;
+       }
+       main{
+        position: absolute;
+        left: 50%;
+       }
+       .iframe-video{
+        position: relative;
+        left: -100%;
+        border: none;
+       
+       }
+       .conteiner {
+        border: 1px solid rgba(255, 255, 255, 0.249);
+        width: 370px;
+        height: 500px;
+        justify-content: baseline;
+        padding: 20px;
+        position: relative;
+        left: 1%;
+        top: 12px;
+}
 }
 

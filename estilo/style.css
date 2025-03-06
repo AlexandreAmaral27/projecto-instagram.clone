@@ -46,33 +46,56 @@ main{
    
     
     color: white;
-    
     position: relative;
     top: 8px;
-
     left: 16px;
+    
 }
 .menu{ 
     
     position: absolute;
     left: -17px;
-    top: -20%;
+    top: 15%;
     width: 65%;
-    
+    height: 75%;
+    text-decoration: none;
+    color: white;
     
 }
-
+.menu h1{
+    position: absolute;
+    top:-20%;
+    padding: 20px;
+   
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
 .menu h3{
-    font-size: 0.7rem;
-    padding: 10px 0px  15px 55px ;
+    font-size: 1rem;
+    padding: 5px 0px  15px 55px ;
+    position: relative;
+    top: 5px;
+     text-decoration: none;
+    color: white;
 }
 .menu h3:hover{
     background-color: rgba(53, 52, 52, 0.234);
     border-radius: 5%;
 }
+.linha{
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
 .iframe-video{
-    position: absolute;
+    position: relative;
     left: 70%;
+    width: 100%;
+    border-left: 1px solid rgba(255, 255, 255, 0.249);
 }
 
 #story>iframe{
@@ -82,8 +105,40 @@ main{
     left: 17%;
   
 }
+.direito{
+    width: 260px;
+    height: 556px;
+    position: absolute;
+    left: 214.5%;
+    top: -4px;
+    padding-top: 5%;
 
+}
+.direito h3{
+    font-size: 1rem;
+}
+.direito .nome{
+    position: absolute;
+    top: 6%;
+    left: 16%;
+}
+.perfil{
+    padding: 75px 0px 0px 30px;
+}
 
+.perfil h3{
+    padding-bottom: 40px;
+}
+.circlo{
+    background-color:rgba(255, 255, 255, 0.311) ;
+    border: 1px solid rgba(255, 255, 255, 0.249); 
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+}
+footer{
+    display: none;
+}
 footer>div{
   width: 100vw;
   display: flex;
